@@ -3,6 +3,8 @@ The software is located in the library directory of clrsPython.
  And the Python file is called aaaMain.
  And the Excel file containing the London Underground data that is loaded in the aaaMain is in london_underground_data.xlsx file.
 
+Installation:
+    This project requires Python 3.x and several Python packages listed in 'requirements.txt'.
 
 # London Underground Network Analysis
 
