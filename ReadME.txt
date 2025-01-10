@@ -1,6 +1,6 @@
 The software is located in the library directory of clrsPython.
 
- And the main Python file is called **'aaaMain.py'**.
+ * And the main Python file is called 'aaaMain.py'.
  And the Excel file containing the London Underground data that is loaded in the aaaMain is in london_underground_data.xlsx file.
 
 Installation:
