@@ -38,7 +38,8 @@ README.md
 ## ⚙️ Installation
 ```bash
 # Clone the repo
-git clone https://github.com/<YOUR-USER>/clrsPython.git
+
+git clone https://github.com/silvesterdan/London-Underground.git
 cd clrsPython
 
 # Install dependencies
