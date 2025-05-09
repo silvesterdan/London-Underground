@@ -16,7 +16,6 @@
 3. [Overview](#-overview)
 4. [Key Features](#-key-features)
 5. [How to Use](#-how-to-use)
-6. [License](#-license)
 7. [Authors](#-authors)
 
 ---
