@@ -52,10 +52,10 @@ pip install -r requirements.txt
 ## 🗺️ Overview
 This project performs a comprehensive analysis of the **London Underground** network:
 
-- Computes **shortest paths** between stations (by travel time and by number of stops).
-- Applies graph algorithms—**Bellman-Ford** (negative-cycle detection) and **Kruskal** (Minimum Spanning Tree).
-- Visualises network-wide travel statistics with **histograms**.
-- Compares pre- and post-optimisation metrics to assess impact.
+- Calculates shortest paths between stations based on both travel time and number of stops, using Dijkstra’s algorithm as the primary method.
+- Then applies additional graph algorithms such as Bellman-Ford for detecting negative cycles and Kruskal’s algorithm to compute the Minimum Spanning Tree (MST) for network optimisation.
+- Visualises network-wide travel statistics with histograms.
+- Compares pre- and post-optimisation metrics to assess the impact of MST-based changes.
 
 ---
 
