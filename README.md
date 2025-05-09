@@ -2,7 +2,7 @@
 *A graph-based Python tool for exploring and optimising the London Underground.*
 
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/London_Underground.svg" width="140" alt="London Underground logo">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Underground.svg/768px-Underground.svg.png" width="140" alt="London Underground logo">
 </p>
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](#) 
