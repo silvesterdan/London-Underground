@@ -1,5 +1,5 @@
 # 🚇 London Underground Network Analysis
-*A graph-based Python tool for exploring and optimising the London Underground.*
+*A graph-based Python tool for exploring and optimising the London Underground Journey routes.*
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Underground.svg/768px-Underground.svg.png" width="140" alt="London Underground logo">
