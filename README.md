@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🗺️ Overview
+## Overview
 This project performs a comprehensive analysis of the **London Underground** network:
 
 - Calculates shortest paths between stations based on both travel time and number of stops, using Dijkstra’s algorithm as the primary method.
@@ -59,7 +59,7 @@ This project performs a comprehensive analysis of the **London Underground** net
 
 ---
 
-## ✨ Key Features
+## Key Features
 | # | Feature | Details |
 |---|---------|---------|
 | 1 | **Shortest Path Analysis** | Dijkstra’s algorithm for any two stations (time & stops). |
@@ -69,7 +69,7 @@ This project performs a comprehensive analysis of the **London Underground** net
 
 ---
 
-## 🚀 How to Use
+## How to Use
 <details>
 <summary><strong>Step-by-step guide</strong></summary>
 
@@ -98,14 +98,13 @@ This project performs a comprehensive analysis of the **London Underground** net
 
 ---
 
-## 📄 License
-Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
+## Author
+
+Developed by **Silvester Dan** as part of a university coursework project.
+
+Algorithms in the `clrsPython` library are based on the textbook *Introduction to Algorithms* by Cormen, Leiserson, Rivest, and Stein (CLRS).
+
 
 ---
 
-## 👥 Authors
-Developed as part of the **clrsPython** library project.
-
----
-
-> *Happy analysing & safe travels!* ✨
+> *Happy analysing & safe travels!* 
