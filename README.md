@@ -40,9 +40,18 @@ README.md
 # Clone the repo
 
 git clone https://github.com/silvesterdan/London-Underground.git
-cd clrsPython
+cd London-Underground
+```
+# Create and activate a virtual environment
+```bash
+python -m venv venv
+source venv/bin/activate       # On macOS/Linux
+venv\Scripts\activate          # On Windows
+
+```
 
 # Install dependencies
+```bash
 pip install -r requirements.txt
 ```
 > **Requires:** Python 3.x
