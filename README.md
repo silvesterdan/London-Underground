@@ -1,38 +1,111 @@
-The software is located in the library directory of clrsPython.
+# 🚇 London Underground Network Analysis
+*A graph-based Python tool for exploring and optimising the London Underground.*
 
- * And the main Python file is called 'aaaMain.py'.
- And the Excel file containing the London Underground data that is loaded in the aaaMain is in london_underground_data.xlsx file.
+<p align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/London_Underground.svg" width="140" alt="London Underground logo">
+</p>
 
-Installation:
-    This project requires Python 3.x and several Python packages listed in 'requirements.txt'.
+[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](#) 
+[![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey.svg)](LICENSE)
 
-London Underground Network Analysis
+---
 
-Overview
-This script provides a comprehensive analysis of the London Underground network, focusing on calculating the shortest paths between stations, analyzing travel times and number of stops,
-and applying graph algorithms to optimize the network. It uses data from an Excel file containing information about stations, lines, and connections.
+## 📋 Table of Contents
+1. [Project Structure](#-project-structure)
+2. [Installation](#-installation)
+3. [Overview](#-overview)
+4. [Key Features](#-key-features)
+5. [How to Use](#-how-to-use)
+6. [License](#-license)
+7. [Authors](#-authors)
 
-Key Features
+---
 
-1. Shortest Path Analysis: Calculates the shortest paths between any two stations based on travel time and number of stops using Dijkstra's algorithm.
+## 📂 Project Structure
+```
+clrsPython/
+└── library/
+    ├── aaaMain.py              # main script
+    └── london_underground_data.xlsx
+requirements.txt
+README.md
+```
 
-2. Graph Optimization: Applies Bellman-Ford and Kruskal's algorithms to identify negative cycles and to optimize the network by finding the Minimum Spanning Tree (MST).
+* **Main script:** `library/aaaMain.py`  
+* **Data file:** `library/london_underground_data.xlsx`
 
-3. Data Visualization: Generates histograms to visualize the distribution of travel times and number of stops across all station pairs.
+---
 
-4. Impact Analysis Post-Optimization: Analyzes the impact on travel times and stops after applying MST closure using Kruskal's algorithm.
+## ⚙️ Installation
+```bash
+# Clone the repo
+git clone https://github.com/<YOUR-USER>/clrsPython.git
+cd clrsPython
 
-How to Use
+# Install dependencies
+pip install -r requirements.txt
+```
+> **Requires:** Python 3.x
 
-1. Prepare the Data: Ensure you have an Excel file named 'london_underground_data.xlsx' with columns for 'Line', 'Station', 'Connection', and 'Time'.
+---
 
-2. Run the Script: Execute the script in a Python environment. The script will automatically load and process the data from the Excel file.
+## 🗺️ Overview
+This project performs a comprehensive analysis of the **London Underground** network:
 
-3. Input Queries: The script will prompt you to enter starting and destination stations for various tasks. Input the station names as requested.
-For Example:
-    Please enter your first station:Victoria
-    Please enter your destination station:bank
+- Computes **shortest paths** between stations (by travel time and by number of stops).
+- Applies graph algorithms—**Bellman-Ford** (negative-cycle detection) and **Kruskal** (Minimum Spanning Tree).
+- Visualises network-wide travel statistics with **histograms**.
+- Compares pre- and post-optimisation metrics to assess impact.
 
-4. View Results: The script outputs the results directly in the console, including the shortest routes, journey times, stops, and histograms for travel time and stop distributions.
+---
 
-5. Graph Analysis: Observe the output related to graph optimization and the effects of applying Kruskal's algorithm on the network.
+## ✨ Key Features
+| # | Feature | Details |
+|---|---------|---------|
+| 1 | **Shortest Path Analysis** | Dijkstra’s algorithm for any two stations (time & stops). |
+| 2 | **Graph Optimisation** | Bellman-Ford for negative cycles; Kruskal for MST. |
+| 3 | **Data Visualisation** | Histograms of travel times and stop counts. |
+| 4 | **Impact Analysis** | Evaluates network after MST closure. |
+
+---
+
+## 🚀 How to Use
+<details>
+<summary><strong>Step-by-step guide</strong></summary>
+
+1. **Prepare the data**  
+   Ensure `london_underground_data.xlsx` contains the columns:  
+   `Line`, `Station`, `Connection`, `Time`.
+
+2. **Run the script**
+   ```bash
+   python library/aaaMain.py
+   ```
+
+3. **Enter station names** when prompted, e.g.  
+   ```
+   Please enter your first station: Victoria
+   Please enter your destination station: bank
+   ```
+
+4. **View results** in the console:  
+   * route, journey time, number of stops  
+   * histogram plots of global statistics
+
+5. **Analyse optimisation output** for MST and travel-time changes.
+
+</details>
+
+---
+
+## 📄 License
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for details.
+
+---
+
+## 👥 Authors
+Developed as part of the **clrsPython** library project.
+
+---
+
+> *Happy analysing & safe travels!* ✨
